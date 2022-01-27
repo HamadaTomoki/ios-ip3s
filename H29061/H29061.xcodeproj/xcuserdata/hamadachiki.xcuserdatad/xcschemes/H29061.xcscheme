@@ -7,7 +7,7 @@
             buildForRunning = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D6D4578E279FB29100CF2A68"
+               BlueprintIdentifier = "D6351EA627A224BD006F9EE6"
                BuildableName = "H29061.app"
                BlueprintName = "H29061"
                ReferencedContainer = "container:H29061.xcodeproj">
@@ -22,7 +22,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D6D4578E279FB29100CF2A68"
+            BlueprintIdentifier = "D6351EA627A224BD006F9EE6"
             BuildableName = "H29061.app"
             BlueprintName = "H29061"
             ReferencedContainer = "container:H29061.xcodeproj">

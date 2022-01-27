@@ -8,16 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var snackViewModel = SnackViewModel()
+
+    @ObservedObject var snackViewModel = SnackViewModel()
 
     var body: some View {
-        List(snackViewModel.snackList, id: \.self) { item in
-            Text("hogehgoe")
+        VStack{
+            SnackScreen(snackViewModel: snackViewModel)
         }
-                .onAppear(perform: {
-                    snackViewModel.getSnackList()
-                    print(snackViewModel.snackList)
-                })
     }
 }
 

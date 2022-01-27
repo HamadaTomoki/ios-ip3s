@@ -4,9 +4,9 @@
 
 import Foundation
 
-class SnackViewModel: NSObject {
+class SnackViewModel: ObservableObject {
 
-    var snackList = Array<SnackInfo.Snack>()
+    @Published var snackList = Array<SnackInfo.Snack>()
 
     func getSnackList() {
         Networking.shared.getSnackList { [weak self] result in
